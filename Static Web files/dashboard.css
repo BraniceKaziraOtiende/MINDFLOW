@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Section */
+.dashboard-header {
+    background-color: #705892; /* Cute Purple */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-header .nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.dashboard-header .nav-menu a:hover {
+    color: #a8e3e2; /* Light Blue */
+}
+
+/* Main Section */
+.dashboard-main {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #a8e3e2; /* Light Blue */
+    color: #333;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.dashboard-main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #705892; /* Cute Purple */
+}
+
+.dashboard-main p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 22%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #705892; /* Cute Purple */
+}
+
+.service h2 {
+    font-size: 20px;
+    color: #705892; /* Cute Purple */
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.service button {
+    background-color: #705892; /* Cute Purple */
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.service button:hover {
+    background-color: #a8e3e2; /* Light Blue */
+    color: #333;
+}
+
+/* Footer Section */
+.dashboard-footer {
+    background-color: #705892; /* Cute Purple */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.dashboard-footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service {
+        width: 100%;
+    }
+
+    .dashboard-main h1 {
+        font-size: 28px;
+    }
+}

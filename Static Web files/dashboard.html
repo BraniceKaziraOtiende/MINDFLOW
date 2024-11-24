@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="logo">Mindflow</div>
+        <nav class="nav-menu">
+            <a href="dashboard.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    
+    <main class="dashboard-main">
+        <h1>Welcome to Your Dashboard!</h1>
+        <p>Select a service to get started:</p>
+        <div class="services">
+            <div class="service">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h2>Journaling</h2>
+                <p>Track your thoughts and feelings in your personal journal.</p>
+                <button onclick="window.location.href='Journaling.html'">Start Journaling</button>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2>Peer Support Groups</h2>
+                <p>Join safe spaces to connect and share your journey with others.</p>
+                <button onclick="window.location.href='support-groups.html'">Join Now</button>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h2>Mental Health Resources</h2>
+                <p>Access articles and videos for improving mental well-being.</p>
+                <button onclick="window.location.href='resources.html'">Explore</button>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <h2>Workshops & Seminars</h2>
+                <p>Participate in wellness-focused workshops and seminars.</p>
+                <button onclick="window.location.href='workshops.html'">Register</button>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="dashboard-footer">
+        <p>&copy; 2024 Mindflow. All Rights Reserved.</p>
+    </footer>
+    <script src="dashboard.js"></script>
+</body>
+</html>

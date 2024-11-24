@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #705892; /* Cute Purple */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #a8e3e2; /* Light Blue Hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #a8e3e2; /* Light Blue */
+    color: #705892; /* Cute Purple */
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+.support-groups {
+    text-align: center;
+    padding: 2rem;
+    background: #f5f7fa;
+    color: #333;
+}
+
+.support-groups h2 {
+    font-size: 2rem;
+    color: #705892;
+    margin-bottom: 1.5rem;
+}
+
+.group-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.group-card {
+    background: #a8e3e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.group-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.group-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.group-card h3 {
+    font-size: 1.5rem;
+    color: #705892;
+    margin-bottom: 0.5rem;
+}
+
+.group-card p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.join-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #705892;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.join-link:hover {
+    background: #4a3b6b;
+}
+
+/* Footer */
+.footer {
+    background: #705892; /* Cute Purple */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

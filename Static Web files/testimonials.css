@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f4f1;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    padding: 50px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.testimonial {
+    width: 250px;
+    text-align: left;
+}
+.quote {
+    font-size: 48px;
+    color: #d6b3e0;
+}
+.text {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.author {
+    font-size: 16px;
+    font-weight: bold;
+}

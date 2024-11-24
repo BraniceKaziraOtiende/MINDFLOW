@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindFlow Journaling</title>
+    <link rel="stylesheet" href="journaling.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">MindFlow</a>
+        <ul class="nav-links">
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="support-groups.html">Peer Support</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Journaling for Your Mental Wellness</h1>
+        <p>Start writing to reflect on your thoughts or revisit past entries for inspiration.</p>
+    </section>
+
+    <!-- Journaling Section -->
+    <section class="journaling">
+        <div class="new-entry">
+            <h2>Start a New Journal</h2>
+            <button id="newEntryBtn" class="pen-icon">
+                <img src="IMAGES\pen.png" alt="Pen Icon" />
+                <p>Click to Write</p>
+            </button>
+        </div>
+
+        <div class="previous-entries">
+            <h2>Your Journals</h2>
+            <div class="entries-container" id="entriesContainer">
+                <p>No entries yet. Start journaling to see them here!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 MindFlow | Journaling Made Simple</p>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="journaling.js"></script>
+</body>
+</html>

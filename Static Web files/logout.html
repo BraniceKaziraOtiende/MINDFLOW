@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f7ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .dashboard-container {
+            max-width: 500px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .dashboard-header {
+            margin-bottom: 20px;
+            color: #4a00e0;
+        }
+
+        .logout-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .logout-buttons button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-confirm {
+            background-color: #e53935; /* Red */
+            color: white;
+        }
+
+        .btn-cancel {
+            background-color: #4a00e0; /* Purple */
+            color: white;
+        }
+
+        .btn-confirm:hover {
+            background-color: #d32f2f;
+        }
+
+        .btn-cancel:hover {
+            background-color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1><i class="fas fa-sign-out-alt"></i> Logout</h1>
+        </header>
+        <p>Are you sure you want to log out?</p>
+        <div class="logout-buttons">
+            <button class="btn-confirm" onclick="window.location.href='index.html'">Yes, Logout</button>
+            <button class="btn-cancel" onclick="window.location.href='dashboard.html'">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>
